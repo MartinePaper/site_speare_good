@@ -1,44 +1,159 @@
 
-.shake1{
-    height: 680px;
-    background: url('images/man_skull.png')no-repeat center left;
-    background-size: 70%;
+body {
+    font-family: 'Eagle Lake', cursive;
 }
 
-.shake2{
- height: 680px;
-    background: url('images/evil_queen.png')no-repeat center right;
-    background-size: 65%;
+
+.shake1{
+    height: 880px;
+    text-align: center;
+    background: url('images/group.jpg')no-repeat center left;
+    background-size: cover;
+    background-color: rgba(255,255,255,0.5);
+    background-attachment: fixed !important;
+    z-index: 1;
+    /*opacity: 0.7;*/
+
+}
+
+.shake_title{
+    font-size: 80px;
+    color: #e7b404;
+    opacity: 1;
+    text-shadow: 5 5 10px #EDEDED;
+    /*margin-top: 0;*/
+}
+
+.shake_sub_title{
+    font-size: 30px;
+    color: white;
+}
+
+.titles{
+    padding-top: 151px;
+    z-index: 2;
+}
+
+.shake2 {
+     height: 380px;
+    background: url('images/old_paper.jpg')no-repeat center center;
+    background-size: cover;
+    padding: 150px;
+    text-align: center;
+}
+
+h2{
+    font-size: 60px;
+}
+
+img{
+    display: block;
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 30%;
 }
 
 .shake3{
- height: 680px;
+    height: 680px;
     background: url('images/knight.png')no-repeat center right;
     background-size: 30%;
+    background-attachment: fixed !important;
+    padding: 300px 400px 100px 30px;
+    text-align: left;
+    color: green;
+}
+
+.shake3 li {
+
 }
 
 .shake4{
- height: 680px;
+    height: 680px;
     background: url('images/hamlet.png')no-repeat center;
     background-size: cover;
+    background-attachment: fixed !important;
 }
 
 .shake5{
+    height: 280px;
+    background: url('images/old_paper.jpg')no-repeat center center;
+    background-size: cover;
+}
+
+.shake6{
+height: 680px;
+}
+.shake7{
+height: 680px;
+background: url('images/old_paper.jpg')no-repeat center center;
+background-size: cover;
+}
+
+.shake8{
+height: 680px;
+}
+
+.shake9{
+height: 680px;
+background: url('images/fight.jpg') no-repeat center center;
+background-size: 100%;
+background-attachment: fixed !important;
+}
+
+.shake10{
+height: 680px;
+background: url('images/old_paper.jpg')no-repeat center center;
+background-size: cover;
 
 }
 
+.shake11{
+height:680px;
+background: url('images/fight.jpg');
+background-size: cover;
+}
+
+.shake12{
+}
+.shake13{
+}
+.shake14{
+}
+.shake15{
+}
+.shake16{
+}
+.shake17{
+}
+
+
 nav ul{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
     text-align: center;
     padding: 20px;
     border-bottom: 2px #EDEDED solid;
+    z-index: 4;
+    background-color: white;
 }
 
 nav li{
     display: inline;
     padding: 0px 30px;
+    font-size: 25px;
+    font-family: 'Eagle Lake', cursive;
+
 }
 
 nav a{
     text-decoration: none;
-    color: blue;
+    color: #7d173f;
+}
+
+.logo{
+    font-size: 60px;
+    display: inline;
+    width: 40px;
 }
